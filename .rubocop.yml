@@ -1,0 +1,30 @@
+AllCops:
+  Exclude:
+    - bit_player.gemspec
+    - bin/**/*
+    - db/**/*
+    - spec/dummy/**/*
+
+Documentation:
+  Exclude:
+    - db/**/*
+    - spec/**/*
+
+IfUnlessModifier:
+  Enabled: false
+
+LineLength:
+  Exclude:
+    - db/**/*
+    - bit_maker.gemspec
+
+MethodLength:
+  Exclude:
+    - db/**/*
+
+Output:
+  Exclude:
+    - Rakefile
+
+StringLiterals:
+  EnforcedStyle: double_quotes
